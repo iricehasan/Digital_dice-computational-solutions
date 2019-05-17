@@ -22,7 +22,7 @@ for i in range(1,1000001):
     if a_sqr < b_sqr + c_sqr and b_sqr < c_sqr+a_sqr and c_sqr < a_sqr + b_sqr:
         obtusetriangles = 0
     else:
-        obstusetriangles = 1
+        obtusetriangles = 1
 
     S += obtusetriangles
 print(S/1000000)
