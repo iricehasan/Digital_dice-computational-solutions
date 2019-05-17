@@ -20,10 +20,10 @@ for i in range(1,1000001):
     c_sqr = (r[0]-r[2])**2+(r[3]-r[5])**2
     
     if a_sqr < b_sqr + c_sqr and b_sqr < c_sqr+a_sqr and c_sqr < a_sqr + b_sqr:
-        obsturetriangles = 0
+        obtusetriangles = 0
     else:
-        obsturetriangles = 1
+        obstusetriangles = 1
 
-    S += obsturetriangles
+    S += obtusetriangles
 print(S/1000000)
     
